@@ -1,5 +1,52 @@
 # Setup Instructions
 
+## Step 0: Install WSL and Ubuntu (Windows only)
+
+WSL (Windows Subsystem for Linux) lets you run Linux on Windows.
+
+### 0.1 Enable WSL
+
+Open **PowerShell as Administrator** (right-click → "Run as administrator") and run:
+
+```powershell
+wsl --install
+```
+
+This will:
+- Enable WSL
+- Install Ubuntu (default Linux distribution)
+
+**Restart your computer** when prompted.
+
+### 0.2 First-time Ubuntu Setup
+
+After restart, Ubuntu will open automatically (or search for "Ubuntu" in Start menu).
+
+You'll be asked to create a username and password:
+- Choose a simple username (lowercase, no spaces)
+- Choose a password (you won't see it as you type - this is normal)
+- Remember this password! You'll need it for `sudo` commands
+
+### 0.3 Update Ubuntu
+
+Run these commands in the Ubuntu terminal:
+
+```bash
+sudo apt update
+sudo apt upgrade -y
+```
+
+### 0.4 (Optional) Install VS Code WSL Extension
+
+If using VS Code:
+1. Open VS Code in Windows
+2. Install the **WSL** extension
+3. Click the green button in the bottom-left corner → "Connect to WSL"
+
+Now you can edit files in WSL directly from VS Code.
+
+---
+
 ## Step 1: Install Miniconda (in WSL/Ubuntu)
 
 Open your WSL terminal (Ubuntu) and run:
@@ -103,6 +150,23 @@ pip install package_name
 
 ## Troubleshooting
 
+### WSL Issues
+
+**"WSL 2 requires an update to its kernel component"**
+Download and install the WSL2 kernel update from:
+https://aka.ms/wsl2kernel
+
+**"Virtualization not enabled"**
+You need to enable virtualization in your BIOS settings. The exact steps depend on your computer manufacturer.
+
+**Ubuntu not appearing after restart**
+Search for "Ubuntu" in the Windows Start menu. If not found, open PowerShell and run:
+```powershell
+wsl --install -d Ubuntu
+```
+
+### Conda Issues
+
 ### "conda: command not found"
 Close and reopen your terminal, or run:
 ```bash
@@ -119,6 +183,7 @@ Click on the Python version in the bottom status bar and select the interpreter 
 
 ## Useful Links
 
+- [WSL Installation Guide (Microsoft)](https://learn.microsoft.com/en-us/windows/wsl/install)
 - [Miniconda Installation](https://docs.conda.io/en/latest/miniconda.html)
 - [Conda Cheat Sheet](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html)
 - [Jupyter in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
