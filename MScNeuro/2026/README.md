@@ -3,13 +3,12 @@
 * (https://neurosciences.med.uoc.gr/index.php/el/prog-2)
 
 ### Contact
-** [Dimitris Tzeranis](tzeranis@imbb.forth.gr) ** [Alexandros Pittis](alexandros.pittis@imbb.forth.gr)
+** [Dimitris Tzeranis](tzeranis@imbb.forth.gr) ** [Alexandros Pittis](alexandros.pittis@gmail.com)
 
 ### Room
 Computer room, Dept of Biology, UoC
 
 ### Learning objectives
-Learning Objectives:
 - Comprehension of statistical concepts and methods widely used in biomedical research
 - Ability to interpret the results of statistical analyses as well as the documented critical evaluation of the statistical methodology of biomedical publications.
 
