@@ -25,7 +25,8 @@ Computer room, Dept of Biology, UoC
 * Intro to statistics using Python.
 
 ### Program
-| DATE | TIME |	DESCRIPTION	| TEACHER
+| DATE | TIME |	DESCRIPTION	| TEACHER |
+| --- | --- | --- | --- |
 | Mon 12/1/26 | 1-3pm |	Random variables. The concept of probability, joint & conditional probability. Descriptive statistics. |	Dimitris Tzeranis |
 | Wed 14/1/26 | 3:30-5:30pm	| Key distributions and their applications. Normal distribution. Applications: noise, signal processing.	| Dimitris Tzeranis |
 | Friday 16/1/26 | 12-2pm  | Statistics and probability using Python.	| Alexandros Pittis |
