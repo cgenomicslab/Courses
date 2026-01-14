@@ -58,6 +58,10 @@ Computer room, Dept of Biology, UoC
 
 ## Setup Instructions
 
+👉 **See [SETUP.md](SETUP.md) for detailed installation instructions** (conda, Jupyter, VS Code)
+
+### Quick Start (if conda/pip is already installed)
+
 ### Requirements
 - Python 3.8+
 - Jupyter Notebook or JupyterLab
