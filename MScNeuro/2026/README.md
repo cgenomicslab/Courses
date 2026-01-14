@@ -34,7 +34,7 @@ Computer room, Dept of Biology, UoC
 | Wed 21/1/26 | 3:30-5:30pm |	Parametric hypothesis tests (z-test, t-test, paired t-test, ANOVA). Selecting and applying statistical tests.	| Dimitris Tzeranis |
 | Friday 23/1/26 | 12-2pm |	Applications: fitting models to data, estimating variable correlation.	| Alexandros Pittis |
 | Mon 26/1/26 | 12-2pm	| Applications: Permutation and non-parametric tests, p-value estimation	| Alexandros Pittis |
-| Wed 28/1/26 | 3:30-5:30pm	Applications: Hands-on project, case study	| Alexandros Pittis |
+| Wed 28/1/26 | 3:30-5:30pm |	Applications: Hands-on project, case study	| Alexandros Pittis |
 
 ### Resources
 * [John H. Mcdonald, Handbook Of Biolological Statistics. Third Edition, Sparky House Publishing.](https://www.biostathandbook.com/)
