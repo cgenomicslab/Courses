@@ -37,9 +37,9 @@ Computer room, Dept of Biology, UoC
 | **Fri 16/1/26** | **12-2pm** | **Statistics and probability using Python.** | **Alexandros Pittis** |
 | Mon 19/1/26 | 12-2pm | Sampling, central limit theorem, confidence regions. Statistical Hypotheses Tests: significance, p-value, errors | Dimitris Tzeranis |
 | Wed 21/1/26 | 3:30-5:30pm | Parametric hypothesis tests (z-test, t-test, paired t-test, ANOVA). Selecting and applying statistical tests. | Dimitris Tzeranis |
-| **Fri 23/1/26** | **12-2pm** | **Applications: fitting models to data, estimating variable correlation.** | **Alexandros Pittis** |
-| **Mon 26/1/26** | **12-2pm** | **Applications: Permutation and non-parametric tests, p-value estimation** | **Alexandros Pittis** |
-| **Wed 28/1/26** | **3:30-5:30pm** | **Applications: Hands-on project, case study** | **Alexandros Pittis** |
+| Fri 23/1/26 | 12-2pm | Applications: fitting models to data, estimating variable correlation. | Alexandros Pittis |
+| Mon 26/1/26 | 12-2pm | Applications: Permutation and non-parametric tests, p-value estimation | Alexandros Pittis |
+| Wed 28/1/26 | 3:30-5:30pm | Applications: Hands-on project, case study | Alexandros Pittis |
 
 ---
 
@@ -58,35 +58,23 @@ Computer room, Dept of Biology, UoC
 
 ## Setup Instructions
 
-👉 **See [SETUP.md](SETUP.md) for detailed installation instructions** (conda, Jupyter, VS Code)
+👉 **See [SETUP.md](SETUP.md) for detailed installation instructions**
 
-### Quick Start (if conda/pip is already installed)
+### Easiest: Google Colab (No Installation)
 
-### Requirements
-- Python 3.8+
-- Jupyter Notebook or JupyterLab
-- Required packages: numpy, scipy, matplotlib, pandas
+Open notebooks directly in your browser: https://colab.research.google.com
 
-### Installation (using conda)
+### Local Installation (Quick Start)
 
 ```bash
-# Create environment
+# Create and activate environment
 conda create -n neuro105 python=3.10
-
-# Activate environment
 conda activate neuro105
 
 # Install packages
-pip install numpy scipy matplotlib pandas jupyter
+pip install numpy scipy matplotlib seaborn pandas jupyter
 
-# Launch Jupyter
-jupyter notebook
-```
-
-### Installation (using pip)
-
-```bash
-pip install numpy scipy matplotlib pandas jupyter
+# Run Jupyter
 jupyter notebook
 ```
 

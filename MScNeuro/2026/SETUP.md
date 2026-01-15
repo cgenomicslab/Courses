@@ -1,5 +1,113 @@
 # Setup Instructions
 
+There are three ways to run the notebooks:
+
+- **Option A: Google Colab (Easiest)** - No installation, runs in browser
+- **Option B: Windows Native** - Install Miniconda on Windows
+- **Option C: WSL + Ubuntu** - Use Linux inside Windows (advanced)
+
+---
+
+# Option A: Google Colab (No Installation!)
+
+The easiest way - everything runs in your browser.
+
+## Step 1: Open Google Colab
+
+Go to: https://colab.research.google.com
+
+Sign in with your Google account.
+
+## Step 2: Open a Notebook
+
+**Option 1:** Upload a notebook
+- Click "File" → "Upload notebook"
+- Select your `.ipynb` file
+
+**Option 2:** Open from GitHub
+- Click "File" → "Open notebook" → "GitHub" tab
+- Paste the repository URL
+
+**Option 3:** Create new
+- Click "File" → "New notebook"
+
+## Step 3: Run!
+
+All libraries (numpy, pandas, seaborn, scipy) are already installed. Just run the cells with `Shift + Enter`.
+
+If you need an extra package:
+```python
+!pip install package_name
+```
+
+**Pros:** No installation, works on any computer, free GPU available  
+**Cons:** Requires internet, files don't persist (save to Google Drive)
+
+---
+
+# Option B: Windows Native Installation
+
+## Step 1: Download and Install Miniconda
+
+1. Go to: https://docs.conda.io/en/latest/miniconda.html
+2. Download **Miniconda3 Windows 64-bit**
+3. Run the installer:
+   - Click "Next"
+   - Accept the license
+   - Select "Just Me"
+   - Keep the default installation path
+   - **Check** "Add Miniconda3 to my PATH environment variable" (ignore the warning)
+   - Click "Install"
+
+## Step 2: Open Anaconda Prompt
+
+After installation, search for **"Anaconda Prompt"** in the Windows Start menu and open it.
+
+You should see something like:
+```
+(base) C:\Users\YourName>
+```
+
+## Step 3: Create Environment and Install Packages
+
+In the Anaconda Prompt, run:
+
+```bash
+# Create environment
+conda create -n neuro105 python=3.10
+
+# Activate it
+conda activate neuro105
+
+# Install packages
+pip install numpy scipy matplotlib seaborn pandas jupyter
+```
+
+## Step 4: Run Jupyter Notebook
+
+```bash
+# Make sure environment is activated
+conda activate neuro105
+
+# Start Jupyter
+jupyter notebook
+```
+
+A browser window will open with Jupyter.
+
+## Step 5: Using VS Code (Alternative)
+
+1. Open VS Code
+2. Install the **Python** and **Jupyter** extensions
+3. Open your `.ipynb` file
+4. Click "Select Kernel" (top right) → Choose `neuro105`
+
+---
+
+# Option C: WSL + Ubuntu Installation (Advanced)
+
+This option gives you a full Linux environment inside Windows.
+
 ## Step 0: Install WSL and Ubuntu (Windows only)
 
 WSL (Windows Subsystem for Linux) lets you run Linux on Windows.
@@ -150,7 +258,21 @@ pip install package_name
 
 ## Troubleshooting
 
-### WSL Issues
+### Windows Native (Option B)
+
+**"conda is not recognized"**
+- Close and reopen Anaconda Prompt
+- Or reinstall Miniconda and make sure to check "Add to PATH"
+
+**Jupyter doesn't open in browser**
+Copy the URL from the terminal (looks like `http://localhost:8888/?token=...`) and paste it in your browser.
+
+**VS Code doesn't see the environment**
+1. Open Anaconda Prompt
+2. Run: `conda activate neuro105`
+3. Run: `code .` (this opens VS Code with the correct environment)
+
+### WSL Issues (Option C)
 
 **"WSL 2 requires an update to its kernel component"**
 Download and install the WSL2 kernel update from:
@@ -183,6 +305,7 @@ Click on the Python version in the bottom status bar and select the interpreter 
 
 ## Useful Links
 
+- [Google Colab](https://colab.research.google.com) - Free online Jupyter notebooks
 - [WSL Installation Guide (Microsoft)](https://learn.microsoft.com/en-us/windows/wsl/install)
 - [Miniconda Installation](https://docs.conda.io/en/latest/miniconda.html)
 - [Conda Cheat Sheet](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html)
