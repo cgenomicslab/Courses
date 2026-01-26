@@ -51,7 +51,7 @@ Computer room, Dept of Biology, UoC
 | --- | --- | --- |
 | Lesson 1 (16/1) | Statistics and Probability using Python | [Jupyter Notebook](notebooks/Lesson_1_Intro_to_Statistics_Python.ipynb) |
 | Lesson 2 (23/1) | Pandas, Correlation, Regression | [Jupyter Notebook](notebooks/Lesson_2_Correlation_Regression.ipynb) |
-| Lesson 3 (26/1) | Permutation tests, p-value estimation | *Coming soon* |
+| Lesson 3 (26/1) | P-values, t-test, Mann-Whitney U | [Jupyter Notebook](notebooks/Lesson_3_Pvalues_Tests.ipynb) |
 | Lesson 4 (28/1) | Hands-on project | *Coming soon* |
 
 ---

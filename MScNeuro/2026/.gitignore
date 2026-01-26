@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (if any large datasets)
+#*.csv
+*.xlsx
+!example_*.csv
+
+# emacs ~
+*~
+\#*\#
+
+# Solved
+*_solved.ipynb
+*results.ipynb
+solutions/
+notebooks/*results.ipynb
+
+# Backups
+*_bckp.*
+
+# New 2 push
+*_new*
