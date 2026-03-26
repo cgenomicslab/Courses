@@ -22,9 +22,9 @@ Alexandros Pittis ([CGLab](https://cgenomicslab.org/#contact))
 
 ## Data
 
-`data/cox1.nw` — 3 canonical cox1 sequences from 3 species (headers: `>taxid.accession`), curated from UniProt reference proteomes.
-`data/selection2_clustalo.fa` — 8 canonical SLC23 sequences from 3 species (headers: `>taxid.accession`), curated from UniProt reference proteomes.
-`data/selection2_clustalo.fa` — 297 canonical SLC26 sequences from 30 mammalian species (headers: `>taxid.accession`), curated from UniProt reference proteomes.
+- `data/cox1.nw` — 3 canonical cox1 sequences from 3 species (headers: `>taxid.accession`), curated from UniProt reference proteomes.
+- `data/selection2_clustalo.fa` — 8 canonical SLC23 sequences from 3 species (headers: `>taxid.accession`), curated from UniProt reference proteomes.
+- `data/selection2_clustalo.fa` — 297 canonical SLC26 sequences from 30 mammalian species (headers: `>taxid.accession`), curated from UniProt reference proteomes.
 
 ## Setup
 
