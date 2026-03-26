@@ -48,3 +48,8 @@ Biopython, pandas, matplotlib, seaborn — sequence & data analysis
 - Bavi et al. (2021) Nature 600, 553–558 (prestin cryo-EM, PDB 7S8X)
 - Li et al. (2008) PNAS 105, 13959–13964
 - Alper & Sharma (2013) Mol. Aspects Med. 34, 494–515
+
+## 📝 Feedback
+
+This is a new course that will improve with your input. After class, we **welcome feedback on pace, clarity, and content**.
+
