@@ -1,32 +1,30 @@
-# Convergent Molecular Evolution in Echolocating Mammals
+# Molecular Evolution - Comparative Genomics
 
-A 2-day computational biology module for MSc Bioinformatics (2026), using the SLC26 anion transporter family to detect convergent evolution in echolocating bats and dolphins.
+## Contact
 
-Based on [Parker et al. (2013)](https://www.nature.com/articles/nature12511) — *Genome-wide signatures of convergent evolution in echolocating mammals*, Nature 502, 228–231.
-
-## Why SLC26?
-
-The SLC26 family has 11 members sharing the same domain architecture (Sulphate_transp + STAS). Only **SLC26A5 (prestin)** is a cochlear motor protein essential for echolocation — every other subfamily is a built-in negative control.
+Alexandros Pittis ([CGLab](https://cgenomicslab.org/#contact))
 
 ## Course structure
 
 ### Day 1 — Phylogenetics & the SLC26 family
 
-| Notebook | Topic |
+| Notebook | Topic | Link |
 |:---|:---|
-| **01** | Phylogenetics basics: orthology/paralogy, ETE3, NCBI taxonomy, MAFFT alignment, trimming |
-| **02** | SLC26 tree, ETE4 smartview, subfamily identification, prestin extraction, method comparison |
+| **01** | Phylogenetics basics: orthology/paralogy, ETE3, NCBI taxonomy, MAFFT alignment, trimming | [notebook 1](https://github.com/cgenomicslab/Courses/blob/main/MScBioInfo/2026/comparative-genomics-course/notebooks/01_phylogenetics_basics.ipynb) |
+| **02** | SLC26 tree, ETE4 smartview, subfamily identification, prestin extraction, method comparison | [notebook 2](https://github.com/cgenomicslab/Courses/blob/main/MScBioInfo/2026/comparative-genomics-course/notebooks/02_slc26_prestin.ipynb) |
 
 ### Day 2 — Convergent evolution
 
-| Notebook | Topic |
+| Notebook | Topic | Link |
 |:---|:---|
-| **03** | Convergent residue detection, permutation tests, cross-subfamily comparison |
-| **04** | Domain mapping, structure visualization, functional interpretation |
+| **03** | Convergent residue detection, permutation tests, cross-subfamily comparison | will be updated |
+| **04** | Domain mapping, structure visualization, functional interpretation | will be updated |
 
 ## Data
 
-`data/selection2_clustalo.fa` — 297 canonical SLC26 sequences from 30 mammalian species (headers: `>taxid.accession`), curated from UniProt reference proteomes using `scripts/uniprot_phylo.py`.
+`data/cox1.nw` — 3 canonical cox1 sequences from 3 species (headers: `>taxid.accession`), curated from UniProt reference proteomes.
+`data/selection2_clustalo.fa` — 8 canonical SLC23 sequences from 3 species (headers: `>taxid.accession`), curated from UniProt reference proteomes.
+`data/selection2_clustalo.fa` — 297 canonical SLC26 sequences from 30 mammalian species (headers: `>taxid.accession`), curated from UniProt reference proteomes.
 
 ## Setup
 
@@ -42,7 +40,7 @@ Start with `01_phylogenetics_basics.ipynb`.
 
 MAFFT, trimAl, FastTree, IQ-TREE — phylogenetic pipeline
 ETE3 (inline rendering) + ETE4 v4.4+ (interactive smartview) — tree visualization
-Biopython, pandas, matplotlib — sequence & data analysis
+Biopython, pandas, matplotlib, seaborn — sequence & data analysis
 
 ## References
 
