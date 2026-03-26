@@ -19,6 +19,6 @@ dependencies:
   - biopython>=1.81
   - jupyter>=1.0
   - ete3>=3.1
+  - pymsaviz>=0.5
   - pip:
     - ete4>=4.4
-    - pymsaviz>=0.5
