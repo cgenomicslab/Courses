@@ -9,14 +9,14 @@ Alexandros Pittis ([CGLab](https://cgenomicslab.org/#contact))
 ### Day 1 — Phylogenetics & the SLC26 family
 
 | Notebook | Topic | Link |
-|:---|:---|
+|:---|:---|:---|
 | **01** | Phylogenetics basics: orthology/paralogy, ETE3, NCBI taxonomy, MAFFT alignment, trimming | [notebook 1](https://github.com/cgenomicslab/Courses/blob/main/MScBioInfo/2026/comparative-genomics-course/notebooks/01_phylogenetics_basics.ipynb) |
 | **02** | SLC26 tree, ETE4 smartview, subfamily identification, prestin extraction, method comparison | [notebook 2](https://github.com/cgenomicslab/Courses/blob/main/MScBioInfo/2026/comparative-genomics-course/notebooks/02_slc26_prestin.ipynb) |
 
 ### Day 2 — Convergent evolution
 
 | Notebook | Topic | Link |
-|:---|:---|
+|:---|:---|:---|
 | **03** | Convergent residue detection, permutation tests, cross-subfamily comparison | will be updated |
 | **04** | Domain mapping, structure visualization, functional interpretation | will be updated |
 
