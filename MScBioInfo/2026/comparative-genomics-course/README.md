@@ -46,9 +46,9 @@ Start with `01_phylogenetics_basics.ipynb`.
 
 ## Tools
 
-MAFFT, trimAl, FastTree, IQ-TREE — phylogenetic pipeline
-ETE3 (inline rendering) + ETE4 v4.4+ (interactive smartview) — tree visualization
-Biopython, pandas, matplotlib, seaborn — sequence & data analysis
+MAFFT, trimAl, FastTree, IQ-TREE — phylogenetic pipeline  
+ETE3 (inline rendering) + ETE4 v4.4+ (interactive smartview) — tree visualization  
+Biopython, pandas, matplotlib, seaborn — sequence & data analysis  
 
 ---
 
