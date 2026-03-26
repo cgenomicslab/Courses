@@ -5,9 +5,12 @@ __pycache__/
 .vscode/
 .idea/
 
-# Generated intermediate files (recreated by notebooks)
+# Generated alignments and trees (recreated by notebooks)
 data/slc26.clustalo.*
+data/slc26.mafft.*
 data/subfamilies/
+
+# IQ-TREE intermediates
 *.iqtree
 *.log
 *.bionj
@@ -17,4 +20,10 @@ data/subfamilies/
 *.splits.nex
 *.contree
 *.ufboot
+
+# NCBI taxonomy dump (students download locally)
 taxdump.tar.gz
+
+# Emacs / editor backups
+*~
+\#*\#

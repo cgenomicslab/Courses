@@ -10,19 +10,19 @@ The SLC26 family has 11 members sharing the same domain architecture (Sulphate_t
 
 ## Course structure
 
-### Day 1 — From sequences to trees
+### Day 1 — Phylogenetics & the SLC26 family
 
 | Notebook | Topic |
 |:---|:---|
-| **01** | SLC26 superfamily tree, orthology vs paralogy, NCBI taxonomy, ETE4 |
-| **02** | Prestin subfamily extraction, multiple phylogenetic methods, topology comparison |
+| **01** | Phylogenetics basics: orthology/paralogy, ETE3, NCBI taxonomy, MAFFT alignment, trimming |
+| **02** | SLC26 tree, ETE4 smartview, subfamily identification, prestin extraction, method comparison |
 
-### Day 2 — Alignment analysis & structure
+### Day 2 — Convergent evolution
 
 | Notebook | Topic |
 |:---|:---|
-| **03** | Shannon entropy, convergent residue detection, permutation tests |
-| **04** | Domain mapping, PyMOL structure visualization, functional interpretation |
+| **03** | Convergent residue detection, permutation tests, cross-subfamily comparison |
+| **04** | Domain mapping, structure visualization, functional interpretation |
 
 ## Data
 
@@ -36,14 +36,13 @@ conda activate convergent-evo
 cd notebooks && jupyter notebook
 ```
 
-Start with `01_slc26_superfamily.ipynb`.
+Start with `01_phylogenetics_basics.ipynb`.
 
 ## Tools
 
-ClustalO, trimAl, FastTree — phylogenetic pipeline  
-ETE3 (inline rendering) + ETE4 v4.4+ (interactive smartview) — tree visualization  
-Biopython, pandas, matplotlib — sequence & data analysis  
-PyMOL — 3D structure (Notebook 04)
+MAFFT, trimAl, FastTree, IQ-TREE — phylogenetic pipeline
+ETE3 (inline rendering) + ETE4 v4.4+ (interactive smartview) — tree visualization
+Biopython, pandas, matplotlib — sequence & data analysis
 
 ## References
 
