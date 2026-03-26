@@ -49,7 +49,7 @@ Biopython, pandas, matplotlib, seaborn — sequence & data analysis
 - Li et al. (2008) PNAS 105, 13959–13964
 - Alper & Sharma (2013) Mol. Aspects Med. 34, 494–515
 
-## 📝 Feedback
+## Feedback
 
 This is a new course that will improve with your input. After class, we **welcome feedback on pace, clarity, and content**.
 
