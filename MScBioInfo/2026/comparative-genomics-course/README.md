@@ -1,6 +1,6 @@
 # Molecular Evolution — Comparative Genomics
 
-MSc Bioinformatics, University of Crete (2026)
+MSc Bioinformatics - OMICS, University of Crete (2026)
 
 ### Contact
 
@@ -8,27 +8,22 @@ Alexandros Pittis ([CGLab](https://cgenomicslab.org/#contact))
 
 ---
 
-## Course structure
-
-### Day 1 — Phylogenetics & the SLC26 family
+### Class 1 — Phylogenetics & the SLC26 family
 
 | Notebook | Topic |
 |:---|:---|
 | **01** | Phylogenetics basics: orthology/paralogy, ETE3, NCBI taxonomy, MAFFT alignment, trimming |
 
-### Day 2 — Comparative genomics & hypothesis testing
+### Class 2 — Comparative genomics & hypothesis testing
 
 | Notebook | Topic |
 |:---|:---|
-| **02** | Comparative genomics: NCBI taxonomy database, SLC26 family tree with subfamilies, phylogenetic profile, prestin alignment (pyMSAviz), pandas basics, Shannon entropy, PyMOL structure |
-| **03** | Hypothesis testing: permutation tests (colored balls → amino acids → convergence), p-values, Manhattan plot, multiple testing |
-| **Assignment** | Do convergent sites cluster in protein domains? Design and run a permutation test |
+| **02** | Comparative genomics |
+| **03** | Hypothesis testing - permutation tests |
 
-### Instructor only
+### Assignment
 
-| Notebook | Topic |
-|:---|:---|
-| **00** | Data preparation: subfamily extraction, MAFFT, trimAl (two levels), FastTree, species classification |
+Do convergent sites cluster in protein domains?
 
 ---
 
@@ -67,7 +62,7 @@ If you can't install locally, open notebooks in [Google Colab](https://colab.res
 !conda install -y -c bioconda -c conda-forge mafft trimal fasttree 2>/dev/null
 ```
 
-Note: ETE4 smartview and PyMOL will not work in Colab.
+Note: ETE4 smartview (needs port tunnelling..) and PyMOL will not work in Colab.
 
 ---
 
@@ -107,6 +102,3 @@ All sequence headers follow the `taxid.accession` format, curated from UniProt r
 
 ---
 
-## Feedback
-
-This is a new course that will improve with your input. After class, we welcome feedback on pace, clarity, and content.
