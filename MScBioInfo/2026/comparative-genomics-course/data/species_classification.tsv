@@ -1,30 +1,42 @@
-9913	Bos taurus	Boreoeutheria	no	Pecora
-29139	Vombatus ursinus	Tetrapoda	no	Metatheria
-38626	Phascolarctos cinereus	Tetrapoda	no	Metatheria
-10090	Mus musculus	Glires	no	Muridae
-9606	Homo sapiens	Primates	no	Hominoidea
-9823	Sus scrofa	Theria	no	Artiodactyla
-9755	Physeter macrocephalus	Cetacea	yes	Cetacea
-118797	Lipotes vexillifer	Cetacea	yes	Cetacea
-9749	Delphinapterus leucas	Cetacea	yes	Cetacea
-9739	Tursiops truncatus	Cetacea	yes	Cetacea
-59479	Rhinolophus ferrumequinum	Chiroptera	yes	Rhinolophoidea
-186990	Hipposideros armiger	Chiroptera	yes	Yinpterochiroptera
-132908	Pteropus vampyrus	Chiroptera	no	Pteropodoidea
-51298	Myotis myotis	Chiroptera	yes	Chiroptera
-27622	Molossus molossus	Chiroptera	yes	Chiroptera
-9615	Canis lupus familiaris	Eutheria	no	Caniformia
-34884	Callorhinus ursinus	Eutheria	no	Caniformia
-9305	Sarcophilus harrisii	Tetrapoda	no	Metatheria
-9925	Capra hircus	Boreoeutheria	no	Pecora
-9771	Balaenoptera musculus	Cetacea	no	Cetacea
-9407	Rousettus aegyptiacus	Chiroptera	no	Pteropodoidea
-9402	Pteropus alecto	Chiroptera	no	Pteropodoidea
-59472	Pipistrellus kuhlii	Chiroptera	yes	Chiroptera
-89673	Phyllostomus discolor	Chiroptera	yes	Yangochiroptera
-13616	Monodelphis domestica	Amniota	no	Didelphimorphia
-109478	Myotis brandtii	Chiroptera	yes	Chiroptera
-9770	Balaenoptera physalus	Cetacea	no	Cetacea
-59463	Myotis lucifugus	Chiroptera	yes	Chiroptera
-103600	Sousa chinensis	Cetacea	yes	Cetacea
-225400	Myotis davidii	Chiroptera	yes	Chiroptera
+# Species classification for SLC26 convergent evolution course
+# taxid	species	group	echolocates	notes
+#
+# Echolocating bats (Chiroptera, NOT Pteropodidae)
+51298	Myotis myotis	echolocating_bat	yes	Greater mouse-eared bat (Yangochiroptera)
+59479	Rhinolophus ferrumequinum	echolocating_bat	yes	Greater horseshoe bat (Yinpterochiroptera, CF echolocation)
+186990	Hipposideros armiger	echolocating_bat	yes	Great roundleaf bat (Yinpterochiroptera)
+27622	Molossus molossus	echolocating_bat	yes	Velvety free-tailed bat (Yangochiroptera)
+59472	Pipistrellus kuhlii	echolocating_bat	yes	Kuhl's pipistrelle (Yangochiroptera)
+89673	Phyllostomus discolor	echolocating_bat	yes	Pale spear-nosed bat (Yangochiroptera)
+109478	Myotis brandtii	echolocating_bat	yes	Brandt's bat (Yangochiroptera)
+59463	Myotis lucifugus	echolocating_bat	yes	Little brown bat (Yangochiroptera)
+225400	Myotis davidii	echolocating_bat	yes	David's myotis (Yangochiroptera)
+#
+# Non-echolocating bats (Pteropodidae — fruit bats)
+132908	Pteropus vampyrus	non_echolocating_bat	no	Large flying fox
+9407	Rousettus aegyptiacus	non_echolocating_bat	no	Egyptian fruit bat
+9402	Pteropus alecto	non_echolocating_bat	no	Black flying fox
+#
+# Echolocating cetaceans (Odontoceti — toothed whales)
+9739	Tursiops truncatus	echolocating_cetacean	yes	Bottlenose dolphin
+9749	Delphinapterus leucas	echolocating_cetacean	yes	Beluga whale
+9755	Physeter macrocephalus	echolocating_cetacean	yes	Sperm whale
+118797	Lipotes vexillifer	echolocating_cetacean	yes	Baiji (Yangtze river dolphin)
+103600	Sousa chinensis	echolocating_cetacean	yes	Indo-Pacific humpback dolphin
+#
+# Non-echolocating cetaceans (Mysticeti — baleen whales)
+9771	Balaenoptera musculus	non_echolocating_cetacean	no	Blue whale
+9770	Balaenoptera physalus	non_echolocating_cetacean	no	Fin whale
+#
+# Outgroup mammals
+9913	Bos taurus	outgroup	no	Cow (Artiodactyla)
+9823	Sus scrofa	outgroup	no	Pig (Artiodactyla)
+9925	Capra hircus	outgroup	no	Goat (Artiodactyla)
+9615	Canis lupus familiaris	outgroup	no	Dog (Carnivora)
+34884	Callorhinus ursinus	outgroup	no	Northern fur seal (Carnivora, Pinnipedia)
+9606	Homo sapiens	outgroup	no	Human (Primates)
+10090	Mus musculus	outgroup	no	Mouse (Rodentia)
+9305	Sarcophilus harrisii	outgroup	no	Tasmanian devil (Dasyuromorphia)
+13616	Monodelphis domestica	outgroup	no	Gray short-tailed opossum (Didelphimorphia)
+29139	Vombatus ursinus	outgroup	no	Common wombat (Diprotodontia)
+38626	Phascolarctos cinereus	outgroup	no	Koala (Diprotodontia)
