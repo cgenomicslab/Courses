@@ -62,7 +62,7 @@ If you can't install locally, open notebooks in [Google Colab](https://colab.res
 !conda install -y -c bioconda -c conda-forge mafft trimal fasttree 2>/dev/null
 ```
 
-Note: ETE4 smartview (needs port tunnelling..) and PyMOL will not work in Colab.
+Note: ETE4 smartview (needs port tunnelling) and PyMOL will not work in Colab.
 
 ---
 
@@ -71,7 +71,7 @@ Note: ETE4 smartview (needs port tunnelling..) and PyMOL will not work in Colab.
 | File | Description |
 |:---|:---|
 | `data/cox1.nw` | 3 COX1 sequences (intro example) |
-| `data/slc23a.mft.gt01` | SLC23A trimmed alignment (intro example) |
+| `data/slc23a.mft.gt01.fa` | SLC23A trimmed alignment (intro example) |
 | `data/selection2_clustalo.fa` | 297 SLC26 sequences, 30 mammalian species |
 | `data/selection2.clustalo.seqid2gname.tab` | Sequence → gene name mapping |
 | `data/species_classification.tsv` | Species, group, echolocation status |
@@ -99,6 +99,26 @@ All sequence headers follow the `taxid.accession` format, curated from UniProt r
 - Bavi et al. (2021) *Nature* 600, 553–558 — Prestin cryo-EM structure (PDB 7S8X)
 - Li et al. (2008) *PNAS* 105, 13959–13964 — Prestin and echolocation
 - Alper & Sharma (2013) *Mol. Aspects Med.* 34, 494–515 — SLC26 family review
+- Zou & Zhang (2015) *Mol. Biol. Evol.* 32, 1080–1090 — Are convergent and parallel amino acid substitutions more prevalent than neutral expectations?
+- Thomas & Hahn (2015) *Mol. Biol. Evol.* 32, 1236–1241 — Determining the null model for detecting adaptive convergence from genomic data
+- Rey et al. (2019) *Mol. Biol. Evol.* 36, 1823–1839 — PCOC: detecting convergent amino acid evolution
 
 ---
 
+## Resources
+
+### Python & data analysis
+- [pandas — Getting started tutorials](https://pandas.pydata.org/docs/getting_started/intro_tutorials/)
+- [Python Graph Gallery](https://python-graph-gallery.com/) — chart types and code recipes (matplotlib, seaborn, plotly)
+
+### Tree visualization & phylogenetics
+- [ETE Toolkit (ETE4)](https://etetoolkit.github.io/ete/) — tree exploration, annotation, and smartview
+- [MAFFT algorithms](https://mafft.cbrc.jp/alignment/software/algorithms/algorithms.html)
+- [trimAl documentation](http://trimal.cgenomics.org/)
+- [FastTree](http://www.microbesonline.org/fasttree/)
+- [IQ-TREE documentation](http://www.iqtree.org/doc/)
+
+### Alignment visualization
+- [pyMSAviz](https://moshi4.github.io/pyMSAviz/) — publication-quality alignment figures
+
+---
