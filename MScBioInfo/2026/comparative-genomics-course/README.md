@@ -51,8 +51,6 @@ cd notebooks
 jupyter notebook
 ```
 
-Start with `01_phylogenetics_basics.ipynb`.
-
 ### Google Colab (alternative)
 
 If you can't install locally, open notebooks in [Google Colab](https://colab.research.google.com). Install dependencies in the first cell:
@@ -62,7 +60,7 @@ If you can't install locally, open notebooks in [Google Colab](https://colab.res
 !conda install -y -c bioconda -c conda-forge mafft trimal fasttree 2>/dev/null
 ```
 
-Note: ETE4 smartview requires port tunnelling in Colab.
+Note: ETE4 smartview requires port tunnelling in remote servers..
 
 ---
 
