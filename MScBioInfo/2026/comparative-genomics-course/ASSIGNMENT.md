@@ -2,19 +2,18 @@
 
 ## Background
 
-In Notebook 3 you identified alignment positions where echolocating
+In Notebook 3 we identified alignment positions where echolocating
 species show convergent amino acid usage in prestin (SLC26A5).
 
-Now the biological question: **are these convergent sites randomly
+Biological question: **are these convergent sites randomly
 scattered across the protein, or do they cluster in the transmembrane
 motor domain (TMD)?**
 
-Prestin's motor function resides in the TMD (approximately residues
-81–505 in human prestin). If convergent evolution is driven by
-selection for improved echolocation, we'd expect convergent sites
-to be **enriched** in the TMD.
+Prestin's motor function lies in the TMD (approximately residues
+81–505 in human prestin). If there is selection for improved echolocation, 
+we'd expect convergent sites to be **enriched** in the TMD.
 
-## Your task
+## ToDo
 
 Create a Jupyter notebook that answers this question using a
 **permutation test**. Your notebook should:
@@ -28,21 +27,10 @@ Create a Jupyter notebook that answers this question using a
    by chance? Repeat 10,000 times.
 5. **Compute a p-value** and make a plot showing the null distribution
    with the observed count marked
-6. **Interpret** your result in 2–3 sentences
+6. **Interpret** briefly
 
 ## Deliverables
 
 - A Jupyter notebook (`.ipynb`) with all code, plots, and interpretation
-- The notebook should run from start to finish without errors
-
-## Hints
-
-- You already know how to do permutation tests from Notebook 3
-- Think about what you're shuffling: the *positions* of convergent
-  sites, not the amino acids themselves
-
-## Evaluation
-
-- Correctness of the statistical test
-- Quality of the visualization
-- Clarity of the interpretation
+- Make the notebook run from start to finish without errors
+- Save it after "running all"
