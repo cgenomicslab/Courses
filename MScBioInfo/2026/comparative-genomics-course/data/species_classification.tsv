@@ -1,6 +1,4 @@
-# Species classification for SLC26 convergent evolution course
-# taxid	species	group	echolocates	notes
-#
+taxid	species	group	echolocates	notes
 # Echolocating bats (Chiroptera, NOT Pteropodidae)
 51298	Myotis myotis	echolocating_bat	yes	Greater mouse-eared bat (Yangochiroptera)
 59479	Rhinolophus ferrumequinum	echolocating_bat	yes	Greater horseshoe bat (Yinpterochiroptera, CF echolocation)
@@ -11,7 +9,6 @@
 109478	Myotis brandtii	echolocating_bat	yes	Brandt's bat (Yangochiroptera)
 59463	Myotis lucifugus	echolocating_bat	yes	Little brown bat (Yangochiroptera)
 225400	Myotis davidii	echolocating_bat	yes	David's myotis (Yangochiroptera)
-#
 # Non-echolocating bats (Pteropodidae — fruit bats)
 132908	Pteropus vampyrus	non_echolocating_bat	no	Large flying fox
 9407	Rousettus aegyptiacus	non_echolocating_bat	no	Egyptian fruit bat

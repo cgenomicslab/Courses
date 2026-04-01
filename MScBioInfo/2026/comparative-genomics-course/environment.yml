@@ -24,8 +24,7 @@ dependencies:
   - ete3>=3.1
   # --- Alignment visualization ---
   - pymsaviz>=0.5
-  # --- Structure visualization ---
-  - pymol-open-source
   # --- pip-only packages ---
   - pip:
     - ete4>=4.4
+    - py3Dmol

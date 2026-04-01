@@ -58,11 +58,11 @@ Start with `01_phylogenetics_basics.ipynb`.
 If you can't install locally, open notebooks in [Google Colab](https://colab.research.google.com). Install dependencies in the first cell:
 
 ```python
-!pip install numpy scipy pandas matplotlib seaborn biopython pymsaviz ete4
+!pip install numpy scipy pandas matplotlib seaborn biopython pymsaviz ete4 py3Dmol
 !conda install -y -c bioconda -c conda-forge mafft trimal fasttree 2>/dev/null
 ```
 
-Note: ETE4 smartview (needs port tunnelling) and PyMOL will not work in Colab.
+Note: ETE4 smartview requires port tunnelling in Colab.
 
 ---
 
@@ -88,7 +88,7 @@ All sequence headers follow the `taxid.accession` format, curated from UniProt r
 | MAFFT, ClustalOmega, trimAl, FastTree, IQ-TREE | Phylogenetic pipeline |
 | ETE3 + ETE4 (v4.4+) | Tree visualization (inline + smartview) |
 | pyMSAviz | Alignment visualization |
-| PyMOL (open-source) | 3D structure visualization |
+| py3Dmol | 3D structure visualization (inline) |
 | pandas, seaborn, matplotlib | Data analysis and plotting |
 
 ---
