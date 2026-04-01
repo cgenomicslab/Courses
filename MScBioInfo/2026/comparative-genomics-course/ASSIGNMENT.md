@@ -1,19 +1,30 @@
-# Assignment — Do Convergent Sites Cluster in the Transmembrane Domain?
+# Assignment — Do convergent sites cluster in any protein domain?
 
 ## Background
 
 In Notebook 3 we identified alignment positions where echolocating
-species show convergent amino acid usage in prestin (SLC26A5).
+mammals show significantly higher amino acid agreement than expected
+by chance — these are **convergent sites**.
 
-Biological question: **are these convergent sites randomly
-scattered across the protein, or do they cluster in the transmembrane
-motor domain (TMD)?**
+Human prestin (SLC26A5) has the following approximate domain structure:
 
-Prestin's motor function lies in the TMD (approximately residues
-81–505 in human prestin). If there is selection for improved echolocation, 
-we would expect the TMD to be **enriched** in convergent sites.
+| Domain | Alignment positions | Function |
+|:---|:---|:---|
+| N-terminal | 0 – 79 | Cytoplasmic, regulatory |
+| TMD (transmembrane) | 80 – 504 | Motor domain, 14 TM helices |
+| Linker | 505 – 529 | Connects TMD to STAS |
+| STAS domain | 530 – end | C-terminal regulatory |
+
+*Approximate boundaries in the alignment coordinate system.*
 
 ## ToDo
+
+Make a **Jupyter notebook** that answers:
+
+> **Are convergent sites enriched in any specific protein domain?**
+
+First, test whether the **TMD** contains more
+convergent sites than expected by chance. Consider checking also the other domains
 
 Create a Jupyter notebook that answers this question using a
 **permutation test**. Your notebook should:
@@ -32,5 +43,4 @@ Create a Jupyter notebook that answers this question using a
 ## Deliverables
 
 - A Jupyter notebook (`.ipynb`) with all code, plots, and interpretation
-- Make the notebook run from start to finish without errors
 - Save it after "running all"

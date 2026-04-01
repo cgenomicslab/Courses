@@ -5,26 +5,26 @@ channels:
   - defaults
 dependencies:
   - python=3.11
+  # Core scientific
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  # Jupyter
+  - jupyter
+  - jupytext
+  # Bioinformatics
+  - biopython
+  - ete4>=4.4
+  - mafft
+  - trimal
+  - fasttree
+  - iqtree
+  - clustalo
+  # Visualization
+  - pymol-open-source
+  # Pip packages
   - pip
-  # --- Phylogenetics tools ---
-  - mafft>=7.5
-  - clustalo>=1.2
-  - trimal>=1.5
-  - fasttree>=2.1
-  - iqtree>=2.2
-  # --- Python scientific stack ---
-  - numpy>=1.24
-  - scipy>=1.10
-  - pandas>=2.0
-  - matplotlib>=3.7
-  - seaborn>=0.12
-  - biopython>=1.81
-  - jupyter>=1.0
-  # --- Tree visualization ---
-  - ete3>=3.1
-  # --- Alignment visualization ---
-  - pymsaviz>=0.5
-  # --- pip-only packages ---
   - pip:
-    - ete4>=4.4
-    - py3Dmol
+    - pymsaviz
