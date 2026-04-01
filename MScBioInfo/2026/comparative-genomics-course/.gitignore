@@ -22,12 +22,12 @@ data/slc26.mafft.*
 data/selection2.clustalo.gt01.*
 
 # Subfamily generated files (from NB00)
-data/subfamilies/*.aln.fa
-data/subfamilies/*.trim.fa
-data/subfamilies/*.trim099.fa
-data/subfamilies/*.nwk
-data/subfamilies/*.mafft.fa
-data/subfamilies/*.mafft.gt01.fa
+# data/subfamilies/*.aln.fa
+# data/subfamilies/*.trim.fa
+# data/subfamilies/*.trim099.fa
+# data/subfamilies/*.nwk
+# data/subfamilies/*.mafft.fa
+# data/subfamilies/*.mafft.gt01.fa
 
 # Prestin method-comparison files (dropped from course)
 data/subfamilies/prestin_*
