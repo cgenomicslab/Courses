@@ -11,7 +11,7 @@ motor domain (TMD)?**
 
 Prestin's motor function lies in the TMD (approximately residues
 81–505 in human prestin). If there is selection for improved echolocation, 
-we'd expect convergent sites to be **enriched** in the TMD.
+we would expect the TMD to be **enriched** in convergent sites.
 
 ## ToDo
 
