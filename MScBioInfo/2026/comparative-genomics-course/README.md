@@ -1,4 +1,4 @@
-# Convergent Molecular Evolution in Echolocating Mammals
+# Comparative Genomics classes
 
 MSc Bioinformatics — OMICS, University of Crete, 2026
 
