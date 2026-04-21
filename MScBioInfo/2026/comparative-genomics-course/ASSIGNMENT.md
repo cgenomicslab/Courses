@@ -2,11 +2,9 @@
 
 ## Background
 
-In Notebook 3 we identified alignment positions where echolocating
+We identified alignment positions where echolocating
 mammals show significantly higher amino acid agreement than expected
 by chance — these are **convergent sites**:.
-
-<https://raw.githubusercontent.com/cgenomicslab/Courses/refs/heads/main/MScBioInfo/2026/comparative-genomics-course/data/prestin_convergence_results.csv>
 
 Human prestin (SLC26A5) has the following approximate domain structure:
 
@@ -31,8 +29,7 @@ convergent sites than expected by chance. Consider checking also the other domai
 Create a Jupyter notebook that answers this question using a
 **permutation test**. Your notebook should:
 
-1. **Load the convergence results** from Notebook 3
-   (`data/prestin_convergence_results.csv`)
+1. **Load the [convergence results**](https://raw.githubusercontent.com/cgenomicslab/Courses/refs/heads/main/MScBioInfo/2026/comparative-genomics-course/data/prestin_convergence_results.csv)
 2. **Define protein domains** (TMD: ~81–505, STAS: ~531–744, other)
 3. **Count** how many convergent sites (p < 0.05) fall in the TMD
 4. **Build a null distribution**: if the same number of sites were
