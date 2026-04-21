@@ -4,7 +4,9 @@
 
 In Notebook 3 we identified alignment positions where echolocating
 mammals show significantly higher amino acid agreement than expected
-by chance — these are **convergent sites**.
+by chance — these are **convergent sites**:.
+
+<https://raw.githubusercontent.com/cgenomicslab/Courses/refs/heads/main/MScBioInfo/2026/comparative-genomics-course/data/prestin_convergence_results.csv>
 
 Human prestin (SLC26A5) has the following approximate domain structure:
 
